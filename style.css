@@ -2,9 +2,9 @@
 /* When nothing is loaded, the default theme will be applied. */
 /* see https://github.com/hiroppy/fusuma#themes */
 /* @import '@fusuma/client/assets/style/themes/pop.css'; */
-/* @import '@fusuma/client/assets/style/themes/babel.css'; */
-/* @import '@fusuma/client/assets/style/themes/webpack.css'; */
-/* @import '@fusuma/client/assets/style/themes/node.css'; */
+/* @import '@fusuma/client/assets/style/themes/babel.css';
+@import '@fusuma/client/assets/style/themes/webpack.css'; */
+@import '@fusuma/client/assets/style/themes/node.css';
 
 /* global config */
 /* When you want to change the default values, please uncomment. */
@@ -24,7 +24,13 @@
 /* --code-font-size: 1.8rem; */
 /* --account-icon-size: 3rem; */
 /* } */
-
+/* :root {
+    --color-title: #e53498;
+    --color-base: #1c1235;
+    --color-background: #e5e5e5;
+    --color-link: #6f4dca;
+  }
+   */
 .title {
 }
 
