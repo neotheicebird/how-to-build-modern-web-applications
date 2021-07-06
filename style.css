@@ -5,7 +5,8 @@
 /* @import '@fusuma/client/assets/style/themes/babel.css';
 @import '@fusuma/client/assets/style/themes/webpack.css'; */
 @import '@fusuma/client/assets/style/themes/node.css';
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 /* global config */
 /* When you want to change the default values, please uncomment. */
 /* see https://github.com/hiroppy/fusuma/blob/master/packages/client/assets/style/variables.css */
@@ -24,13 +25,25 @@
 /* --code-font-size: 1.8rem; */
 /* --account-icon-size: 3rem; */
 /* } */
-/* :root {
-    --color-title: #e53498;
-    --color-base: #1c1235;
-    --color-background: #e5e5e5;
-    --color-link: #6f4dca;
-  }
-   */
+:root {
+  --base-font-family: 'Montserrat', helvetica, arial, sans-serif;
+  --base-align: left;
+  --color-title: #023246;
+  --color-base: #023246;
+  --color-background: #f6f6f6;
+  --color-link: #287094;
+  line-height: 20px; /* 4px +12px + 4px */
+
+}
+
+h1 {
+  margin-bottom: 48px;
+  font-family: 'EB Garamond';
+}
+
+* {
+  line-height: 80%;
+}
 .title {
 }
 
